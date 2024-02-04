@@ -1,6 +1,5 @@
 (SumOrMinus a b 0) = (+ a b)
 (SumOrMinus a b 1) = (- a b)
-(SumOrMinus a b n) = NIL
  
 (Leibniz 0) = (* 1 400000000000000000)
 (Leibniz n) =
@@ -11,4 +10,4 @@
     (SumOrMinus (Leibniz (- n 1)) result sign)
 
 (Main) =
-  (Leibniz 5000000)
+  (Leibniz 1000000)
